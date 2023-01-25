@@ -1,4 +1,7 @@
 import Head from 'next/head';
+import { RiMailFill } from 'react-icons/ri';
+import { RiPhoneFill } from 'react-icons/ri';
+import { RiGithubFill } from 'react-icons/ri';
 import { css } from '@emotion/css';
 
 export default function Home() {
@@ -10,11 +13,61 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <div className="container mx-auto">
-          <p className="text-2xl background: bg-zinc-500">This is fine</p>
+
+      <header>
+        <div className="container mx-auto flex flex-row gap-3">
+          <div className="flex-col lg:h-52 lg:w-2/3 bg-zinc-800 border-zinc-600 border-solid border-2 border-t-0 p-4 rounded-b-xl lg:flex lg:flex-col lg:items-center lg:justify-center shadow-md shadow-zinc-600">
+            <h1 className="text-2xl font-black mb-3 text-zinc-100 self-start">
+              Alexandru Rusovici
+            </h1>
+
+            <h2 className="text-xl font-light mb-3 text-zinc-100 self-start">
+              Frontend focused developer with a passion for minimalistic design
+            </h2>
+
+            <p className="text-sm font-light mb-1 text-zinc-100">
+              I started learning programming at the start of 2022 and fell in
+              love with it around August of the same year. My main goal is to
+              further develop my skills to be able to create everything I
+              imagine and help develop great websites with great functionality.
+            </p>
+          </div>
+
+          <div className="h-52 w-1/3 bg-zinc-300 border-zinc-600 border-solid border-2 border-t-0 p-4 rounded-b-xl flex flex-col gap-6 items-center justify-center  shadow-md shadow-zinc-600">
+            <div className="text-red-800">
+              <a
+                href="mailto:alex.rusovici@yahoo.com"
+                className="inline-flex flex-row gap-4"
+                title="Mail me"
+              >
+                <RiMailFill className="text-2xl"></RiMailFill>
+                alex.rusovici@yahoo.com
+              </a>
+            </div>
+            <div className="text-red-800">
+              <a
+                href="tel:+40747089434"
+                className="inline-flex flex-row gap-4"
+                title="Call me"
+              >
+                <RiPhoneFill className="text-2xl"></RiPhoneFill>+40 747 089 434
+              </a>
+            </div>
+            <div className="text-red-800">
+              <a
+                href="https://github.com/Alex-Rusovici"
+                target="_blank"
+                className="inline-flex flex-row gap-4"
+                title="Check out my github"
+              >
+                <RiGithubFill className="text-2xl"></RiGithubFill>
+                github.com/Alex-Rusovici
+              </a>
+            </div>
+          </div>
         </div>
-      </main>
+      </header>
+      <main></main>
     </>
   );
 }
