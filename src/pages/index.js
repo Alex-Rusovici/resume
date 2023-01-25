@@ -1,4 +1,5 @@
-import Head from "next/head";
+import Head from 'next/head';
+import { css } from '@emotion/css';
 
 export default function Home() {
   return (
@@ -9,10 +10,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className="flex background-color: bg-lime-600">
-        <div className="justify-center">This is new</div>
+      <main>
+        <div className="container mx-auto">
+          <p className="text-2xl background: bg-zinc-500">This is fine</p>
+        </div>
       </main>
     </>
-  )
+  );
 }
