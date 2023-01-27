@@ -7,7 +7,8 @@ import {Education} from '@/components/Education';
 import {TechStacks} from '@/components/TechStacks';
 import {Passions} from '@/components/Passions';
 
-const sectionContainer = 'container mx-auto p-6 bg-gradient-to-r from-zinc-100 to-zinc-300 text-zinc-800 border border-zinc-800 rounded-xl b shadow-md shadow-zinc-500 flex flex-col gap-8'
+const sectionContainerLarge = 'container mx-auto mb-8 p-6 lg:w-4/6 bg-gradient-to-r from-zinc-100 to-zinc-300 text-zinc-800 border border-zinc-800 rounded-xl b shadow-md shadow-zinc-500 flex flex-col gap-8'
+const sectionContainerSmall = 'container mx-auto mb-8 p-6 lg:w-2/6 bg-gradient-to-r from-zinc-100 to-zinc-300 text-zinc-800 border border-zinc-800 rounded-xl b shadow-md shadow-zinc-500 flex flex-col gap-8'
 
 export default function Home() {
   return (
@@ -19,25 +20,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-        <div className='CV w-11/12 mx-auto mt-4'>
+        <div className='CV container mx-auto mt-8'>
           <Header></Header>
 
-          <main className='mt-8'>
-            <section className={sectionContainer}>
+          <main className='mt-8 lg:flex lg:gap-8'>
+            <section className={sectionContainerLarge}>
               <Summary></Summary>
               <Experience></Experience>
               <Languages></Languages>
             </section>
 
-            <section>
+            <section className={sectionContainerSmall}>
               <Education></Education>
-            </section>
-
-            <section>
               <TechStacks></TechStacks>
-            </section>
-
-            <section>
               <Passions></Passions>
             </section>
           </main>

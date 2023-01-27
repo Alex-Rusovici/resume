@@ -1,31 +1,33 @@
-const container = 'container mx-auto p-6'
+const h3Css = 'text-2xl uppercase border-b-2 border-zinc-900 mb-8'
+const h4Css = 'text-2xl font-light mt-8'
+const h5CssEducation = 'text-xl text-amber-500'
 
 export const Education = () => {
-  return <div className={container}>
+  return <div>
     <section>
-      <h3>Education</h3>
+      <h3 className={h3Css}>Education</h3>
 
-      <h4>React Developer Bootcamp</h4>
+      <h4 className={h4Css}>React Developer Bootcamp</h4>
 
-      <h5>PixelLab Romania</h5>
+      <h5 className={h5CssEducation}>PixelLab Romania</h5>
 
-      <p>11/2022 - Ongoing</p>
+      <p className="text-sm font-bold">11/2022 - Ongoing</p>
     </section>
 
     <section>
-      <h3>Frontend Developer Bootcamp</h3>
+      <h4 className={h4Css}>Frontend Developer Bootcamp</h4>
 
-      <h4>PixelLab Romania</h4>
+      <h5 className={h5CssEducation}>PixelLab Romania</h5>
 
-      <p>08/2022 - Ongoing</p>
+      <p className="text-sm font-bold">08/2022 - Ongoing</p>
     </section>
 
     <section>
-      <h3>Architecture and Urban Planning</h3>
+      <h4 className={h4Css}>Architecture and Urban Planning</h4>
 
-      <h4>Ion Mincu University of Architecture and Urban Planning</h4>
+      <h5 className={h5CssEducation}>Ion Mincu University of Architecture and Urban Planning</h5>
 
-      <p>2014 - 2020</p>
+      <p className="text-sm font-bold">2014 - 2020</p>
     </section>
   </div>
   }
