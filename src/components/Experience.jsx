@@ -38,12 +38,14 @@ export const Experience = () => {
             Monochrome - <a
             href="https://inspiring-donut-e90771.netlify.app/"
             target="_blank"
+            rel="noreferrer"
             title="Monochrome - Live website"
             >
               Live version
             </a> - <a
             href="https://github.com/Alex-Rusovici/monochrome"
             target="_blank"
+            rel="noreferrer"
             title="Monochrome - Repository"
             >
               Repository
@@ -56,12 +58,14 @@ export const Experience = () => {
             Thread affair - <a
             href="https://lustrous-stroopwafel-8c22a9.netlify.app/"
             target="_blank"
+            rel="noreferrer"
             title="Thread affair - Live website"
             >
               Live version
             </a> - <a
             href="https://github.com/Alex-Rusovici/thread-affair"
             target="_blank"
+            rel="noreferrer"
             title="Thread Affair - Repository"
             >
               Repository
@@ -113,12 +117,14 @@ export const Experience = () => {
             Time app - <a
             href="https://magnificent-fudge-e6b4cd.netlify.app/"
             target="_blank"
+            rel="noreferrer"
             title="Time app - Live website"
             >
               Live version
             </a> - <a
             href="https://github.com/Alex-Rusovici/just-a-clock"
             target="_blank"
+            rel="noreferrer"
             title="Time app - Repository"
             >
               Repository
