@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-        <div className='CV container mx-auto mt-8'>
+        <div className='CV container mx-auto mt-8 p-4'>
           <Header></Header>
 
           <main className='mt-8 lg:flex lg:gap-8'>
