@@ -46,6 +46,7 @@ export const Header = () => {
         <a
           href="https://github.com/Alex-Rusovici"
           target="_blank"
+          rel="noreferrer"
           className="inline-flex flex-row gap-4 items-center"
           title="Check out my github"
         >
