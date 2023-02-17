@@ -14,7 +14,7 @@ import {
 } from 'react-icons/si';
 
 const h3Css = 'text-2xl uppercase border-b-2 border-zinc-900 mb-8';
-const wrapper = 'border w-32 py-2 border-zinc-300 rounded-lg';
+const wrapper = 'border w-28 py-2 border-zinc-300 rounded-lg';
 const flexItems = 'flex flex-col items-center gap-2';
 const subtext = 'text-sm font-bold';
 
