@@ -10,7 +10,7 @@ export const Experience = () => {
       {/* start - team-lead - VEGO */}
       <h4 className={h4Css}>Team Lead - Infrastructure and Development</h4>
 
-      <h5 className={h5Css}>VEGO</h5>
+      <h5 className={h5Css}>VEGO - Architecture and urban planning firm</h5>
 
       <p className="text-sm font-bold">February/2022 - February/2023</p>
       <p className="text-sm font-bold">Bucharest, B</p>
@@ -37,7 +37,7 @@ export const Experience = () => {
       {/* start - architecture - consultant - VEGO */}
       <h4 className={h4Css}>Architecture consultant- road infrastructure</h4>
 
-      <h5 className={h5Css}>VEGO</h5>
+      <h5 className={h5Css}>VEGO - Architecture and urban planning firm</h5>
 
       <p className="text-sm font-bold">November/2020 - February/2023</p>
       <p className="text-sm font-bold">Bucharest, B</p>
@@ -69,7 +69,7 @@ export const Experience = () => {
       {/* start - urban planner - VEGO */}
       <h4 className={h4Css}>Urban planner</h4>
 
-      <h5 className={h5Css}>VEGO</h5>
+      <h5 className={h5Css}>VEGO - Architecture and urban planning firm</h5>
 
       <p className="text-sm font-bold">August/2018 - February/2023</p>
       <p className="text-sm font-bold">Bucharest, B</p>
