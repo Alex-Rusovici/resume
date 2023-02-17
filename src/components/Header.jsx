@@ -1,6 +1,7 @@
 import { RiMailFill } from 'react-icons/ri';
 import { RiPhoneFill } from 'react-icons/ri';
 import { RiGithubFill } from 'react-icons/ri';
+import { RiLinkedinBoxFill } from 'react-icons/ri'
 
 const headerContainer = 'container mx-auto p-6 bg-gradient-to-r from-zinc-800 border border-zinc-800 rounded-xl b shadow-md shadow-zinc-500'
 const h1Css = 'text-3xl uppercase font-light';
@@ -14,7 +15,7 @@ export const Header = () => {
       </h1>
 
       <h2 className="text-xl text-amber-500 font-bold">
-        Frontend focused developer with a passion for minimal design
+        Frontend focused developer with a passion for minimalistic design
       </h2>
     </div>
 
@@ -42,6 +43,7 @@ export const Header = () => {
           <RiPhoneFill className=""></RiPhoneFill>+40 747 089 434
         </a>
       </div>
+
       <div className="text-l font-light">
         <a
           href="https://github.com/Alex-Rusovici"
@@ -52,6 +54,19 @@ export const Header = () => {
         >
           <RiGithubFill className=""></RiGithubFill>
           github.com/Alex-Rusovici
+        </a>
+      </div>
+
+      <div className="text-l font-light">
+        <a
+          href="https://www.linkedin.com/in/alexrusovici/"
+          target="_blank"
+          rel="noreferrer"
+          className="inline-flex flex-row gap-4 items-center"
+          title="Check out my LinkedIn"
+        >
+          <RiLinkedinBoxFill className=""></RiLinkedinBoxFill>
+          linkedin.com/in/alexrusovici
         </a>
       </div>
     </div>
