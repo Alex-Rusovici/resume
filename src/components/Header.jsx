@@ -79,16 +79,20 @@ export const Header = () => {
         {/* start CV */}
         <div className="flex flex-col gap-4">
           <a
-            href="/public/resume/resume-rusovici-english.pdf"
+            href="/resume/resume-rusovici-english.pdf"
             className={secondaryButton}
+            target="_blank"
+            rel="noopener noreferrer"
             download
           >
             <button>Download English Resume</button>
           </a>
 
           <a
-            href="/public/resume/resume-rusovici-romanian.pdf"
+            href="/resume/resume-rusovici-romanian.pdf"
             className={secondaryButton}
+            target="_blank"
+            rel="noopener noreferrer"
             download
           >
             <button>Download Romanian Resume</button>
