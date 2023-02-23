@@ -7,6 +7,7 @@ import { Education } from '@/components/Education';
 import { TechStacks } from '@/components/TechStacks';
 import { Passions } from '@/components/Passions';
 import { Projects } from '@/components/Projects';
+import { Learning } from '@/components/Learning';
 
 const sectionContainerLarge =
   'container mx-auto mb-8 p-6 lg:w-4/6 bg-gradient-to-r from-zinc-100 to-zinc-300 text-zinc-800 border border-zinc-800 rounded-xl b shadow-md shadow-zinc-500 flex flex-col gap-8';
@@ -36,6 +37,7 @@ export default function Home() {
           <section className={sectionContainerSmall}>
             <Summary></Summary>
             <TechStacks></TechStacks>
+            <Learning></Learning>
             <Passions></Passions>
             <Languages></Languages>
           </section>
