@@ -109,6 +109,68 @@ export const Projects = () => {
         </li>
       </ul>
       {/* end - time app */}
+
+      {/* start - other projects */}
+      <h4 className={h4Css}>Other projects</h4>
+
+      <ul className="flex flex-col gap-2 mt-4">
+        <li className="flex flex-col gap-4">
+          <p className="font-bold">Thread Affair</p>
+          <p>An e-commerce website for a fictitious tailored suits shop</p>
+        </li>
+
+        <li className="flex flex-row gap-4">
+          <a
+            href="https://lustrous-stroopwafel-8c22a9.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+            title="Thred Affair - Live version"
+            className={secondaryButton}
+          >
+            Live Version
+          </a>
+
+          <a
+            href="https://github.com/Alex-Rusovici/thread-affair"
+            target="_blank"
+            rel="noreferrer"
+            title="Thread Affair - Repository"
+            className={secondaryButton}
+          >
+            Repository
+          </a>
+        </li>
+      </ul>
+
+      <ul className="flex flex-col gap-2 mt-4">
+        <li className="flex flex-col gap-4">
+          <p className="font-bold">Don Pablo Coffee Shop</p>
+          <p>An e-commerce website for a fictitious coffee shop</p>
+        </li>
+
+        <li className="flex flex-row gap-4">
+          <a
+            href="https://don-pablo-coffee-shop.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+            title="Don Pablo - Live version"
+            className={secondaryButton}
+          >
+            Live Version
+          </a>
+
+          <a
+            href="https://github.com/Alex-Rusovici/don-pablo-coffee-shop"
+            target="_blank"
+            rel="noreferrer"
+            title="Don Pablo - Repository"
+            className={secondaryButton}
+          >
+            Repository
+          </a>
+        </li>
+      </ul>
+      {/* end - other projects */}
     </div>
   );
 };

@@ -11,6 +11,7 @@ import {
   SiGithub,
   SiVercel,
   SiNetlify,
+  SiNextdotjs,
 } from 'react-icons/si';
 
 const h3Css = 'text-2xl uppercase border-b-2 border-zinc-900 mb-8';
@@ -91,6 +92,13 @@ export const TechStacks = () => {
           <p className={flexItems}>
             <SiGithub></SiGithub>
             <span className={subtext}>Github</span>
+          </p>
+        </div>
+
+        <div className={wrapper}>
+          <p className={flexItems}>
+            <SiNextdotjs></SiNextdotjs>
+            <span className={subtext}>Next.js</span>
           </p>
         </div>
 
