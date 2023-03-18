@@ -8,6 +8,7 @@ import { TechStacks } from '@/components/TechStacks';
 import { Passions } from '@/components/Passions';
 import { Projects } from '@/components/Projects';
 import { Learning } from '@/components/Learning';
+import { DevExperience } from '@/components/DevExperience';
 
 const sectionContainerLarge =
   'container mx-auto mb-8 p-6 lg:w-4/6 bg-gradient-to-r from-zinc-100 to-zinc-300 text-zinc-800 border border-zinc-800 rounded-xl b shadow-md shadow-zinc-500 flex flex-col gap-8';
@@ -30,6 +31,7 @@ export default function Home() {
         <main className="mt-8 lg:flex lg:gap-8">
           <section className={sectionContainerLarge}>
             <Education></Education>
+            <DevExperience></DevExperience>
             <Experience></Experience>
             <Projects></Projects>
           </section>

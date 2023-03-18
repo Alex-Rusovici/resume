@@ -5,7 +5,7 @@ const h5Css = 'text-xl text-amber-500 mb-4';
 export const Experience = () => {
   return (
     <div>
-      <h3 className={h3Css}>Work Experience</h3>
+      <h3 className={h3Css}>Architecture work experience</h3>
 
       {/* start - team-lead - VEGO */}
       <h4 className={h4Css}>Team Lead - Infrastructure and Development</h4>
